@@ -11,3 +11,4 @@ build/
 # Ignore specific files
 config.js
 secret_key.txt
+.vercel

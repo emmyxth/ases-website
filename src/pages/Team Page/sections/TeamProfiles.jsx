@@ -42,7 +42,7 @@ export default function TeamProfile() {
           role={m.role}
           hoveredText={m.description}
           image={m.image}
-          hover={false}
+          hover={true}
         />
       );
     })}
