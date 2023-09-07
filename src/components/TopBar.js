@@ -75,7 +75,7 @@ export default function ButtonAppBar() {
                   width: "35%",
                 }}
               >
-                <Link to="/" style={{ textDecoration: "none" }}>
+                <a href="/#home" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
                       fontFamily: "Inter",
@@ -87,7 +87,7 @@ export default function ButtonAppBar() {
                   >
                     Home
                   </Typography>
-                </Link>
+                </a>
                 <a href="/#programsHome" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
@@ -257,6 +257,7 @@ export default function ButtonAppBar() {
             <CloseIcon sx={{ color: "#667085" }} />
           </IconButton>
         </Box>
+        <a href="/#home" style={{ textDecoration: "none" }}>
         <ListItem
           sx={{
             fontFamily: "Inter",
@@ -268,6 +269,8 @@ export default function ButtonAppBar() {
         >
           Home
         </ListItem>
+        </a>
+        <a href="/#programsHome" style={{ textDecoration: "none" }}>
         <ListItem
           sx={{
             fontFamily: "Inter",
@@ -280,6 +283,8 @@ export default function ButtonAppBar() {
           Programs
           <KeyboardArrowDownIcon />
         </ListItem>
+        </a>
+        <a href="/#about" style={{ textDecoration: "none" }}>
         <ListItem
           sx={{
             fontFamily: "Inter",
@@ -291,6 +296,8 @@ export default function ButtonAppBar() {
         >
           About
         </ListItem>
+        </a>
+        <a href="/#faq" style={{ textDecoration: "none" }}>
         <ListItem
           sx={{
             fontFamily: "Inter",
@@ -302,6 +309,8 @@ export default function ButtonAppBar() {
         >
           FAQ
         </ListItem>
+        </a>
+        <Link to="/team" style={{ textDecoration: "none" }}>
         <ListItem
           sx={{
             fontFamily: "Inter",
@@ -313,6 +322,8 @@ export default function ButtonAppBar() {
         >
           Team
         </ListItem>
+        </Link>
+        <a href="/#sponsors" style={{ textDecoration: "none" }}>
         <ListItem
           sx={{
             fontFamily: "Inter",
@@ -324,6 +335,7 @@ export default function ButtonAppBar() {
         >
           Sponsors
         </ListItem>
+        </a>
         <ListItem
           sx={{
             fontFamily: "Inter",

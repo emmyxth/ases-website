@@ -7,6 +7,7 @@ import styles from "./hero.css";
 
 export default function Hero() {
   return (
+    <a id="home">
     <div
       style={{
         height: "95vh",
@@ -48,5 +49,6 @@ export default function Hero() {
         </div>
       </div>
     </div>
+    </a>
   );
 }
