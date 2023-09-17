@@ -1,21 +1,18 @@
 import React from "react";
 import ShortButtonCustomized from "./ShortButton";
-import { useNavigate } from 'react-router-dom';
-
+import { useNavigate } from "react-router-dom";
 
 export default function TimelineComponentA({
   header,
   description,
   image,
   timeframe,
-}) 
-{
+  link,
+}) {
   const navigate = useNavigate();
 
-  const handleClick =  () => {
-    if (header === "Bootcamp") {
-      navigate("/bootcamp")
-    }
+  const handleClick = () => {
+    navigate(link);
   };
 
   return (
@@ -31,7 +28,7 @@ export default function TimelineComponentA({
         </h1>
         <p style={{ fontSize: "calc(9px + 1vmin)" }}>{description}</p>
         <div onClick={handleClick}>
-        <ShortButtonCustomized text="Learn more"/>
+          <ShortButtonCustomized text="Learn more" />
         </div>
       </div>
       <div className="flex flex-1 flex-col-reverse laptop:items-end mobile:items-center">

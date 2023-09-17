@@ -7,10 +7,6 @@ export default function Timeline() {
   const { scrollYProgress } = useScroll();
   return (
     <>
-      {/* {/* <motion.div
-        className="progress-bar"
-        style={{ scaleX: scrollYProgress }}
-      /> */}
       <a id="programsHome">
         <div
           class="background-container bg-white"
@@ -33,34 +29,16 @@ export default function Timeline() {
 
           <div className="d-flex flex-column justify-between">
             <>
-              {timelineData.map((d, index) => {
+              {timelineData.map((d) => {
                 return (
                   <TimelineComponentA
                     header={d.header}
                     description={d.description}
                     image={d.image}
                     timeframe={d.timeframe}
+                    link={d.link}
                   />
                 );
-                // if (index % 2 === 0) {
-                //   return (
-                //     <TimelineComponentA
-                //       header={d.header}
-                //       description={d.description}
-                //       image={d.image}
-                //       timeframe={d.timeframe}
-                //     />
-                //   );
-                // } else {
-                //   return (
-                //     <TimelineComponentB
-                //       header={d.header}
-                //       description={d.description}
-                //       image={d.image}
-                //       timeframe={d.timeframe}
-                //     />
-                //   );
-                // }
               })}
             </>
           </div>
