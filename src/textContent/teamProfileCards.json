@@ -61,11 +61,16 @@
   },
   {
     "name": "Christina Ba",
-    "role": "Co-VC3 Director",
+    "role": "VC3 Co-Director",
     "description": "Christina is a sophomore from the Chicago area studying Computer Science and Economics. She's been involved in ASES since Bootcamp, and has since helped organize Breakthrough and VC3. She is interested in health tech, human-centered design, and venture capital. Outside of ASES, she enjoys painting, thrifting, and anything with matcha.",
     "image": "/media/Christina_Ba.JPG"
   },
-
+  {
+    "name": "Emily Zhang",
+    "role": "VC3 Co-Director",
+    "description": "Emily Zhang is a sophomore studying CS and Art Practice and a Co-Director of VC3. She’s passionate about harnessing AI entrepreneurship for social good and the intersection of tech and culture. Emily loves building, painting, brunching, and meeting new people, so feel free to reach out!",
+    "image": "/media/Emily_Zhang.JPG"
+  },
   {
     "name": "Dhruv Naik",
     "role": "Breakthrough Co-Director",
@@ -90,13 +95,6 @@
     "description": "Emi is a sophomore from Miami studying CS & Biomedical Computation, interested in organ transplant and mental healthcare. In her free time, she enjoys lifting, playing Ultimate Frisbee, dancing on the Bhangra team, and watching Gilmore Girls. She's Bootcamp Co-Director with Saanvi and is excited to meet the next bootcamp cohort!",
     "image": "/media/Emi_Mathew.JPG"
   },
-  {
-    "name": "Emily Zhang",
-    "role": "Not Available",
-    "description": "I joined ASES my freshman year and I immediately felt at home with the welcoming community. It was easy to talk to everyone and I made tight-knit friends both in and outside of bootcamp at quarterly retreats and team events. I developed personally and professionally and was able to learn valuable entrepreneurial skills and apply them to real-world experiences.",
-    "image": "/media/Emily_Zhang.JPG"
-  },
-
   {
     "name": "Hasan Ahmad",
     "role": "Not Available",
