@@ -39,11 +39,14 @@ export default function ButtonAppBar() {
       <Box className="desktop" sx={{ flexGrow: 1 }}>
         <AppBar position="static" elevation={0}>
           <Toolbar sx={{ background: "white" }}>
-            <img
-              src={Logo}
-              alt={"ases logo"}
-              style={{ marginLeft: "20px" }}
-            ></img>
+            <a href="/">
+              <img
+                src={Logo}
+                alt={"ases logo"}
+                style={{ marginLeft: "20px" }}
+              ></img>
+            </a>
+
             <Box
               sx={{
                 display: "flex",
@@ -55,16 +58,19 @@ export default function ButtonAppBar() {
                 whiteSpace: "nowrap",
               }}
             >
-              <Typography
-                sx={{
-                  fontFamily: "Space Grotesk",
-                  fontSize: 30,
-                  color: "#101828",
-                  fontWeight: "bold",
-                }}
-              >
-                ASES
-              </Typography>
+              <a href="/" style={{ textDecoration: "none" }}>
+                <Typography
+                  sx={{
+                    fontFamily: "Space Grotesk",
+                    fontSize: 30,
+                    color: "#101828",
+                    fontWeight: "bold",
+                  }}
+                >
+                  ASES
+                </Typography>
+              </a>
+
               <Box
                 sx={{
                   display: "flex",
@@ -73,7 +79,7 @@ export default function ButtonAppBar() {
                   width: "35%",
                 }}
               >
-                <a href="/#home" style={{ textDecoration: "none" }}>
+                <a href="/" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
                       fontFamily: "Inter",
