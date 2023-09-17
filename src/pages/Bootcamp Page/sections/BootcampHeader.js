@@ -5,7 +5,10 @@ import video from "../../../images/bootcamp-hero-gradient.mp4";
 
 export default function BootcampHeader() {
   return (
-    <div className="w-full border-b-2 border-black laptop:pb-24 mobile:pb-8">
+    <div
+      className="w-full laptop:pb-24 mobile:pb-8"
+      style={{ borderBottom: "1px solid black" }}
+    >
       <video
         className="fixed -z-10 w-auto object-cover mobile:min-h-full mobile:min-w-full laptop:min-h-auto x-0 y-0"
         autoPlay

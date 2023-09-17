@@ -11,7 +11,7 @@ export default function Since1988() {
         sx={{
           background: "white",
           height: "600px",
-          borderTop: "1px solid black",
+          // borderTop: "1px solid black",
           display: "flex",
           "@media (max-width: 600px)": {
             flexDirection: "column",
@@ -23,18 +23,8 @@ export default function Since1988() {
         <Box
           sx={{
             flex: 1,
-            borderRight: "1px solid black",
+            // borderRight: "1px solid black",
             padding: "3rem",
-            // "@media (max-width: 800px)": {
-            //   padding: "1rem",
-            // },
-            // "@media (min-width: 640px)": {
-            //   overflow: "scroll",
-            // },
-            // "@media (max-width: 640px)": {
-            //   padding: "3rem",
-            //   borderBottom: "1px solid black",
-            // },
           }}
         >
           <TypingText

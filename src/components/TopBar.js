@@ -38,9 +38,7 @@ export default function ButtonAppBar() {
     >
       <Box className="desktop" sx={{ flexGrow: 1 }}>
         <AppBar position="static" elevation={0}>
-          <Toolbar
-            sx={{ background: "white", borderBottom: "1px solid black" }}
-          >
+          <Toolbar sx={{ background: "white" }}>
             <img
               src={Logo}
               alt={"ases logo"}
@@ -258,83 +256,83 @@ export default function ButtonAppBar() {
           </IconButton>
         </Box>
         <a href="/#home" style={{ textDecoration: "none" }}>
-        <ListItem
-          sx={{
-            fontFamily: "Inter",
-            fontSize: 16,
-            color: "#667085",
-            fontWeight: "bold",
-            marginRight: "20px",
-          }}
-        >
-          Home
-        </ListItem>
+          <ListItem
+            sx={{
+              fontFamily: "Inter",
+              fontSize: 16,
+              color: "#667085",
+              fontWeight: "bold",
+              marginRight: "20px",
+            }}
+          >
+            Home
+          </ListItem>
         </a>
         <a href="/#programsHome" style={{ textDecoration: "none" }}>
-        <ListItem
-          sx={{
-            fontFamily: "Inter",
-            fontSize: 16,
-            color: "#667085",
-            fontWeight: "bold",
-            marginRight: "20px",
-          }}
-        >
-          Programs
-          <KeyboardArrowDownIcon />
-        </ListItem>
+          <ListItem
+            sx={{
+              fontFamily: "Inter",
+              fontSize: 16,
+              color: "#667085",
+              fontWeight: "bold",
+              marginRight: "20px",
+            }}
+          >
+            Programs
+            <KeyboardArrowDownIcon />
+          </ListItem>
         </a>
         <a href="/#about" style={{ textDecoration: "none" }}>
-        <ListItem
-          sx={{
-            fontFamily: "Inter",
-            fontSize: 16,
-            color: "#667085",
-            fontWeight: "bold",
-            marginRight: "20px",
-          }}
-        >
-          About
-        </ListItem>
+          <ListItem
+            sx={{
+              fontFamily: "Inter",
+              fontSize: 16,
+              color: "#667085",
+              fontWeight: "bold",
+              marginRight: "20px",
+            }}
+          >
+            About
+          </ListItem>
         </a>
         <a href="/#faq" style={{ textDecoration: "none" }}>
-        <ListItem
-          sx={{
-            fontFamily: "Inter",
-            fontSize: 16,
-            color: "#667085",
-            fontWeight: "bold",
-            marginRight: "20px",
-          }}
-        >
-          FAQ
-        </ListItem>
+          <ListItem
+            sx={{
+              fontFamily: "Inter",
+              fontSize: 16,
+              color: "#667085",
+              fontWeight: "bold",
+              marginRight: "20px",
+            }}
+          >
+            FAQ
+          </ListItem>
         </a>
         <Link to="/team" style={{ textDecoration: "none" }}>
-        <ListItem
-          sx={{
-            fontFamily: "Inter",
-            fontSize: 16,
-            color: "#667085",
-            fontWeight: "bold",
-            marginRight: "20px",
-          }}
-        >
-          Team
-        </ListItem>
+          <ListItem
+            sx={{
+              fontFamily: "Inter",
+              fontSize: 16,
+              color: "#667085",
+              fontWeight: "bold",
+              marginRight: "20px",
+            }}
+          >
+            Team
+          </ListItem>
         </Link>
         <a href="/#sponsors" style={{ textDecoration: "none" }}>
-        <ListItem
-          sx={{
-            fontFamily: "Inter",
-            fontSize: 16,
-            color: "#667085",
-            fontWeight: "bold",
-            marginRight: "20px",
-          }}
-        >
-          Sponsors
-        </ListItem>
+          <ListItem
+            sx={{
+              fontFamily: "Inter",
+              fontSize: 16,
+              color: "#667085",
+              fontWeight: "bold",
+              marginRight: "20px",
+            }}
+          >
+            Sponsors
+          </ListItem>
         </a>
         <ListItem
           sx={{
