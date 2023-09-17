@@ -62,13 +62,13 @@ const Footer = () => {
         <Box
           sx={{ display: "flex", flexDirection: "row", columnGap: "0.2rem" }}
         >
-          <IconButton>
+          <IconButton href="https://www.instagram.com/asesstanford/?hl=en">
             <InstagramIcon sx={{ color: "white" }} />
           </IconButton>
-          <IconButton>
+          <IconButton href="https://www.linkedin.com/company/asesstanford/mycompany/">
             <LinkedInIcon sx={{ color: "white" }} />
           </IconButton>
-          <IconButton>
+          <IconButton href="https://web.facebook.com/ASESStanford/?_rdc=1&_rdr">
             <FacebookIcon sx={{ color: "white" }} />
           </IconButton>
         </Box>
