@@ -42,19 +42,29 @@ const Footer = () => {
             display: "flex",
             flexDirection: "row",
             width: "80%",
+            alignItems: "center",
           }}
         >
-          <img src={logo_color} alt={"white ASES logo"}></img>
-          <Typography
-            sx={{
-              fontFamily: "Space Grotesk",
-              fontSize: "calc(25px + 1vmin)",
-              fontWeight: 600,
-              marginLeft: 1,
-            }}
-          >
-            ASES
-          </Typography>
+          <a href="/">
+            <img
+              src={logo_color}
+              alt={"white ASES logo"}
+              style={{ width: "full" }}
+            ></img>
+          </a>
+
+          <a href="/" style={{ textDecoration: "none", color: "white" }}>
+            <Typography
+              sx={{
+                fontFamily: "Space Grotesk",
+                fontSize: "calc(25px + 1vmin)",
+                fontWeight: 600,
+                marginLeft: 1,
+              }}
+            >
+              ASES
+            </Typography>
+          </a>
         </Box>
         <Typography className="footer_body" sx={{ paddingTop: 1 }}>
           Solve Global Problems
@@ -88,19 +98,38 @@ const Footer = () => {
             textAlign: "center",
           }}
         >
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            Bootcamp
-          </Typography>
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            VC3
-          </Typography>
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            Summit
-          </Typography>
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            Breakthrough
-          </Typography>
-          <Typography className="footer_body">Launchpad</Typography>
+          <a
+            href="/bootcamp"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              Bootcamp
+            </Typography>
+          </a>
+          <a href="/vc3" style={{ textDecoration: "none", color: "white" }}>
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              VC3
+            </Typography>
+          </a>
+          <a href="/summit" style={{ textDecoration: "none", color: "white" }}>
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              Summit
+            </Typography>
+          </a>
+          <a
+            href="/breakthrough"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              Breakthrough
+            </Typography>
+          </a>
+          <a
+            href="/launchpad"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Typography className="footer_body">Launchpad</Typography>
+          </a>
         </Box>
         <Box
           sx={{
