@@ -7,7 +7,7 @@ export default function Timeline() {
   const { scrollYProgress } = useScroll();
   return (
     <>
-      <a id="programsHome">
+      <a id="programs">
         <div
           class="background-container bg-white"
           style={{

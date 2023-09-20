@@ -107,21 +107,37 @@ const Footer = () => {
             textAlign: "center",
           }}
         >
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            About
-          </Typography>
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            FAQ
-          </Typography>
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            Team
-          </Typography>
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            Sponsors
-          </Typography>
-          <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
-            Contact
-          </Typography>
+          <a
+            href="/#programs"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              Programs
+            </Typography>
+          </a>
+          <a href="/#about" style={{ textDecoration: "none", color: "white" }}>
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              About
+            </Typography>
+          </a>
+          <a href="/#faq" style={{ textDecoration: "none", color: "white" }}>
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              FAQ
+            </Typography>
+          </a>
+          <a href="/team" style={{ textDecoration: "none", color: "white" }}>
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              Team
+            </Typography>
+          </a>
+          <a
+            href="/#sponsors"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Typography className="footer_body" sx={{ paddingBottom: "10px" }}>
+              Sponsors
+            </Typography>
+          </a>
         </Box>
       </Box>
     </Box>

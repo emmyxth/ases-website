@@ -92,7 +92,7 @@ export default function ButtonAppBar() {
                     Home
                   </Typography>
                 </a>
-                <a href="/#programsHome" style={{ textDecoration: "none" }}>
+                <a href="/#programs" style={{ textDecoration: "none" }}>
                   <Typography
                     sx={{
                       fontFamily: "Inter",
